@@ -2,6 +2,7 @@
 
 ## Overview
 This is a simple implementation of a Publisher-Subscriber Notification System using Flask. The system supports subscribing to topics, notifying subscribers, and unsubscribing from topics.
+Edge cases such as Invalid data types, empty request body, invalid or missing topidId/subId have also be considered. 
 
 ## APIs
 
@@ -29,6 +30,7 @@ Description: Subscribes a subscriber to a topic.
 ```
 Description: Notifies all subscribers of a particular topic.
 
+
 ### 3. Unsubscribe
 **Endpoint:** `/unscbscribe`
 **Method:** `POST`
@@ -45,5 +47,7 @@ Description: Unsubscribes a subscriber from a topic.
 **Running the Application**
 **Prerequisites**
 a) Python 3.x
+
 b) Flask
+
 c) Requests library
