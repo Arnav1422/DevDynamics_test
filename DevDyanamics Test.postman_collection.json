@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "397ab095-1ab9-4401-8311-4cad0230af66",
+		"name": "DevDyanamics Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36253151"
+	},
+	"item": [
+		{
+			"name": "Subscribe",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Notification",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Unsubscribe",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
