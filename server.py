@@ -18,7 +18,7 @@ def validate_subscription_data(data):
 
 @app.route('/')
 def index():
-    return "Welcome ! This code is written by Arnav Shah. This Publisher-Subscriber Notification System API. Use /subscribe, /notify, and /unsubscribe endpoints."
+    return "Welcome this code is written by Arnav Shah. This Publisher-Subscriber Notification System API. Use /subscribe, /notify, and /unsubscribe endpoints."
 
 @app.route('/subscribe', methods=['POST'])
 def subscribe():
