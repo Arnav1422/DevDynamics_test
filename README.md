@@ -43,7 +43,7 @@ Description: Unsubscribes a subscriber from a topic.
 
 
 **Running the Application**
-Prerequisites
-Python 3.x
-Flask
-Requests library
+**Prerequisites**
+a) Python 3.x
+b) Flask
+c) Requests library
